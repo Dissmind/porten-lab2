@@ -1,0 +1,385 @@
+
+
+body {
+    margin: 0;
+    background: #000;
+    color: white;
+}
+
+.block {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.fixed-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed-header .item {
+    margin-right: 15px;
+}
+
+.fixed-header {
+    position: fixed;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    height: 44px;
+
+    width: 100%;
+
+    background: #000;
+}
+
+
+.margin-for-fixed-header {
+    height: 44px;
+}
+
+.fixed-header .left {
+    display: flex;
+    align-items: center;
+}
+.fixed-header .right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*Header*/
+
+.header {
+    height: 80px;
+    background: #0F0F0F;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .button {
+    padding: 20px 31px;
+    color: #969696;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.header .button {
+    color: #969696;
+    background: #0F0F0F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .button:hover {
+    background: #1F1F1F;
+    color: white;
+    cursor: pointer;
+}
+
+.header .container {
+    display: flex;
+}
+
+
+.header .left {
+    display: flex;
+}
+.header .right {
+    display: flex;
+}
+
+
+
+.preview img {
+    background-position: center;
+    width: 100%;
+}
+
+
+
+
+.watch {
+    width: 55%;
+}
+
+.watch .title {
+    color: white;
+}
+
+.watch .product {
+    color: white;
+    width: 30%;
+}
+
+.watch .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 93px;
+    margin-bottom: 50px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.watch .hr {
+    margin-bottom: 50px;
+}
+
+.watch .row {
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.watch .img-container, .product .img-container {
+    min-height: 325px;
+    max-height: 395px;
+    height: 50vh;
+
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #191B1C;
+
+    margin-bottom: 25px;
+}
+
+.watch-list .product {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.watch img {
+    width: 80%;
+}
+
+.watch .name {
+    margin-bottom: 10px;
+}
+
+
+.catalog {
+    width: 45%;
+    background-image: url('image/se.png');
+}
+
+.row .photo {
+    width: 45%;
+    background-image: url('image/cos.png');
+    height: 65vh;
+    background-repeat: no-repeat;
+}
+
+
+.collection {
+    color: white;
+    width: 55%;
+    height: 65vh;
+}
+
+.watch-list .product {
+    color: white;
+}
+
+.h-800 {
+    height: 800px;
+}
+
+.collection .title {
+    margin-top: 100px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.collection .description {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    width: 50%;
+}
+
+.collection .description-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.collection .button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.collection .button {
+    margin-top: 60px;
+    border: solid 1px white;
+    padding: 12px 28px;
+}
+
+
+
+.footer {
+    /*height: 400px;*/
+
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    background-image: url('image/footer-bg.png');
+}
+
+.footer .title {
+    margin-bottom: 40px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.footer .row {
+    justify-content: space-between;
+}
+
+.footer .col {
+    width: 32%;
+}
+
+.footer .button {
+    background: #000;
+    padding: 10px 20px;
+}
+.footer .button:hover {
+    background: #1F1F1F;
+    cursor: pointer;
+}
+
+.footer .col .row {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer .col .row .button {
+    margin-right: 20px;
+}
+
+.footer .description {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+
+
+.centerable {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .watch-list {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+.menu .title {
+    margin-top: 120px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.brands {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #0F0F0F;
+}
+
+.brands .title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mr-60 {
+    margin-right: 60px;
+}
+
+
+.second-footer {
+    height: 50px;
+    font-size: 12px;
+}
+
+.second-footer .row {
+    justify-content: space-between;
+    /*align-items: center;*/
+
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+.text-decoration {
+    text-decoration: underline;
+}
